@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Krugovi: 0\nKvadrati: 0\nTrouglovi: 0\nUKUPNO: 0"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#6851A5"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnScreenshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Spremi sliku" />
+</LinearLayout>
+
+
+
+
